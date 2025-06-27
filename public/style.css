@@ -1,0 +1,73 @@
+/* Reset some basic elements */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 2rem;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+form {
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    display: inline-block;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    text-align: left;
+    min-width: 300px;
+}
+
+.field {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+    color: #444;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border-color: #0077cc;
+    box-shadow: 0 0 4px rgba(0, 119, 204, 0.3);
+}
+
+#formBtn {
+    width: 100%;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+#formBtn:hover {
+    background-color: #ff6333;
+}
